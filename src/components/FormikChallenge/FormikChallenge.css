@@ -1,0 +1,11 @@
+.FcBg {
+    background: white;
+    border-radius: 10px;
+    width: 540px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.counter {
+    margin: 25px 0;
+}
