@@ -1,11 +1,10 @@
-import React, { useState, createContext } from "react";
+import { useState, createContext } from "react";
 import FormikChallenge from "./components/FormikChallenge/FormikChallenge";
 import ReactQueryChallenge from "./components/ReactQueryChallenge/ReactQueryChallenge";
 import CounterChallenge from "./components/CounterChallenge/CounterChallenge";
 import "./App.css";
 
 import { QueryClient, QueryClientProvider } from "react-query";
-import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
 const queryClient = new QueryClient();
